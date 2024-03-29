@@ -33,8 +33,8 @@ function Upload() {
     const S3_BUCKET = "s3buckect--project";
     const REGION = "us-east-1";
     AWS.config.update({
-      accessKeyId: "AKIA5RFOE7EF4DJE3DDP",
-      secretAccessKey: "kIGGTN7cpheh32vp3oEIdSD1TxYGrHonyVVzNR+r",
+      accessKeyId: "YOURAWSACCESSKEY",
+      secretAccessKey: "YOURSECRETACESSKEY",
     });
     const s3 = new AWS.S3({
       params: { Bucket: S3_BUCKET },
